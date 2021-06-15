@@ -1,0 +1,53 @@
+.container {
+    max-width: 600px;
+    padding: 60px;
+
+    /* SHADOW */
+    -webkit-box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+}
+
+.formulario div[class^="col-"] {
+    height: 90px;
+}
+
+.invalid {
+    color: red;
+}
+li
+{
+    display: inline-block;
+    margin: 10px;
+}
+.l{
+    margin-right: 5px;
+}
+.moviendooo
+    {
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: skyblue;
+    }
+.t
+{
+    background-color: skyblue;
+}
+.epa
+{
+    margin:auto;
+}
+.movedor
+{
+    margin-left: 450px;
+}
+.etio
+{
+    display: block;
+    text-align: end;
+}
+.d
+{
+    margin-top: 10px;
+}

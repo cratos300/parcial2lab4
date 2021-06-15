@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a *ngIf="!this.auth.boolean"  class="navbar-brand" [routerLink]="['']" >Navbar</a>
+      <a  *ngIf="this.auth.boolean"><img  src="../../../assets/imagenes/homeeeeeeeeeeee.jpg" [routerLink]="['/home']" width="50px" class="alogo" alt=""></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+ 
+     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+       <ul class="navbar-nav ml-auto">
+         <li class="nav-item active">
+           <a class="nav-link" [routerLink]="['/deslogear']"  *ngIf="this.auth.boolean" class="button michi" routerLink="/crisis-list" routerLinkActive="activebutton">Deslogear</a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" [routerLink]="['/registrar']" *ngIf="!this.auth.boolean" class="button michi" routerLink="/crisis-list" routerLinkActive="activebutton">registro</a>
+         </li>
+         <li class="nav-item active">
+            <a class="nav-link"  [routerLink]="['/login']" *ngIf="!this.auth.boolean" class="button michi" routerLink="/crisis-list" routerLinkActive="activebutton">login</a>
+         </li>
+       </ul>
+       </div>
+   </nav>
+   <br>
+   
